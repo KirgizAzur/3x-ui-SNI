@@ -1,3 +1,4 @@
+```css
 Любая заглушка: Из папки templates
 Закинуть по пути: /var/www/html/
 
@@ -32,5 +33,7 @@ systemctl reload nginx
 
 Dest (Target):  127.0.0.1:8443
 SNI : вписать домен
-
+```
+```
 Авто-Установка: bash <(curl -Ls https://raw.githubusercontent.com/KirgizAzur/3x-ui-SNI/main/install.sh)
+```
