@@ -31,7 +31,7 @@ sudo chmod -R 755 /var/www/html
 sudo systemctl restart nginx
 systemctl reload nginx
 
-Dest (Target):  127.0.0.1:8443
+Dest (Target):  127.0.0.1:9443
 SNI : вписать домен
 ```
 ```
