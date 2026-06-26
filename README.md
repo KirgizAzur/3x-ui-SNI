@@ -7,8 +7,7 @@ apt install nginx -y
 nano /etc/nginx/sites-available/default
 server {
     # Слушаем только локально, порт 443 для Xray не трогаем
-    listen 127.0.0.1:9443 ssl;
-    http2 on; 
+    listen 127.0.0.1:9443 ssl http2; 
     server_name домен;
 
     # Ваши готовые сертификаты
