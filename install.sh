@@ -170,8 +170,7 @@ fi
 cat > "$nginx_conf" <<EOF
 server {
     # Слушаем только локально
-    listen 127.0.0.1:${nginx_port} ssl;
-    http2 on; 
+    listen 127.0.0.1:${nginx_port} ssl http2; 
     server_name ${domain};
 
     # Ваши готовые сертификаты
