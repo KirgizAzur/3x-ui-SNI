@@ -8,6 +8,7 @@ nano /etc/nginx/sites-available/default
 server {
     # Слушаем только локально, порт 443 для Xray не трогаем
     listen 127.0.0.1:9443 ssl;
+    http2 on; 
     server_name домен;
 
     # Ваши готовые сертификаты
